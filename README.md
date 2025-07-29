@@ -16,12 +16,20 @@ Asynchronous Python library for Mattermost bot development with built-in FastAPI
 
 ## 📦 Installation
 
+### From PyPI (when published)
 ```bash
 pip install aiomost
 ```
 
-For development:
+### From GitHub
 ```bash
+pip install git+https://github.com/IliaPr/aiomost-python-library.git
+```
+
+### For development
+```bash
+git clone https://github.com/IliaPr/aiomost-python-library.git
+cd aiomost-python-library
 pip install -e ".[dev]"
 ```
 
